@@ -34,7 +34,27 @@ header {
     background-color: rgb(10, 146, 146);
 }
 
-@media (max-width: 745px) {
+.About {
+    background-color: #9de2e7;
+}
+
+.Contact-info {
+    background-color: #9de2e7;
+}
+
+.Resume {
+    background-color: #9de2e7;
+}
+
+.Projects {
+    background-color: #9de2e7;
+}
+
+.content {
+    padding: 30px;
+}
+
+@media (max-width: 750px) {
    h1{
     text-align: center;
     float: none;
