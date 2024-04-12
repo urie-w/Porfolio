@@ -1,42 +1,44 @@
-h1 {
-    text-align: left;
-    font-size: 40px;
-    float: left;
-    color: #fff;
-    margin: 10px;
-    padding: 5px;
-}
+ h1{
+        text-align: right;
+        float: left;
+        font-size: 60px;
+        margin-top: 60px;
+       }
+
 
 img {
     border-radius: 400px;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     display: block;
     margin-right: auto;
-    padding: 30px;
+    padding: 5px;
+    float:left;
 }
 
 header {
     background-color: rgb(2, 105, 104);
+    height: 200px;
 }
 
 .tabs ul {
     list-style-type: none;
-    
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
 
 .tabs a {
-    color: #fff;
+    color: #000000;
     text-decoration-line: underline;
     padding: 25px;
     display: block;
+    margin-top: 60px;
 }
 
 .tabs li {
     float: right;
+    font-size: 20px;
 }
 
 .tabs a:hover {
@@ -45,23 +47,28 @@ header {
 
 .About {
     background-color: #9de2e7;
+    padding: 5%;
+    font-size: 20px;
 }
 
 .Contact-info {
     background-color: #9de2e7;
+    padding: 5%;
+    font-size: 20px;
 }
 
 .Resume {
     background-color: #9de2e7;
+    padding: 5%;
+    font-size: 20px;
 }
 
 .Projects {
     background-color: #9de2e7;
+    padding: 5%;
+    font-size: 20px;
 }
 
-.content {
-    padding: 30px;
-}
 
 @media (max-width: 750px) {
    h1{
@@ -91,11 +98,35 @@ header {
    }
 
    .tabs a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 10px;
     text-align: center;
     padding-top: 15px;
-
    }
-    }
+
+   .About {
+    background-color: #9de2e7;
+    padding: 10%;
+    font-size: 20px;
+}
+
+.Contact-info {
+    background-color: #9de2e7;
+    padding: 10%;
+    font-size: 20px;
+}
+
+.Resume {
+    background-color: #9de2e7;
+    padding: 10%;
+    font-size: 20px;
+}
+
+.Projects {
+    background-color: #9de2e7;
+    padding: 10%;
+    font-size: 20px;
+}
+
+ }
