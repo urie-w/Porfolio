@@ -6,14 +6,14 @@
        }
 
 
-img {
-    border-radius: 400px;
-    width: 10%;
-    height: 10%;
-    display: block;
+.pf {
+    width: 150px;
+    height: 150px;
+    display: flex;
     margin-right: auto;
     padding: 5px;
     float:left;
+    margin-top: 15px;
 }
 
 header {
@@ -70,27 +70,26 @@ header {
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 960px) {
    h1{
     text-align: right;
     float: none;
     font-size: 30px;
-    margin-right: 100px;
+    margin-right: 130px;
+    margin-top: 0;
    }
 
-   .tabs ul {
-    list-style-type: none;
+
+   header {
     background-color: rgb(2, 105, 104);
-    padding: 0;
-    margin: 0;
-   }
+    height: 220px;
+}
 
-   img {
-    border-radius: 200px;
-    width: 20%;
-    height: 20%;
-    padding-top: 20px;
+  .pf {
+    width: 200px;
+    height: 200px;
     float: left;
+    margin-top: 5px;
 }
 
    .tabs li {
@@ -101,8 +100,10 @@ header {
     color: #000000;
     text-decoration: none;
     padding: 10px;
+    text-decoration-line: underline;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
+    margin-top: 0;
    }
 
    .About {
@@ -127,6 +128,12 @@ header {
     background-color: #9de2e7;
     padding: 10%;
     font-size: 20px;
+}
+
+
+.flex-container {
+flex-direction: column;
+padding: 20px;
 }
 
  }
