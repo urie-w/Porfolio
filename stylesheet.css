@@ -7,6 +7,15 @@ h1 {
     padding: 5px;
 }
 
+img {
+    border-radius: 400px;
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-right: auto;
+    padding: 30px;
+}
+
 header {
     background-color: rgb(2, 105, 104);
 }
@@ -56,8 +65,10 @@ header {
 
 @media (max-width: 750px) {
    h1{
-    text-align: center;
+    text-align: right;
     float: none;
+    font-size: 30px;
+    margin-right: 100px;
    }
 
    .tabs ul {
@@ -67,6 +78,14 @@ header {
     margin: 0;
    }
 
+   img {
+    border-radius: 200px;
+    width: 20%;
+    height: 20%;
+    padding-top: 20px;
+    float: left;
+}
+
    .tabs li {
     float: none;
    }
@@ -74,7 +93,9 @@ header {
    .tabs a {
     color: #fff;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
+    padding-top: 15px;
+
    }
     }
