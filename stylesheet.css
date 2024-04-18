@@ -1,8 +1,8 @@
  h1{
-        text-align: right;
-        float: left;
+        text-align: left;
         font-size: 60px;
         margin-top: 60px;
+        float: right;
        }
 
 
@@ -19,6 +19,9 @@
 header {
     background-color: rgb(2, 105, 104);
     height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
 .tabs ul {
@@ -45,32 +48,15 @@ header {
     background-color: rgb(10, 146, 146);
 }
 
-.About {
-    background-color: #9de2e7;
-    padding: 5%;
-    font-size: 20px;
-}
-
-.Contact-info {
-    background-color: #9de2e7;
-    padding: 5%;
-    font-size: 20px;
-}
-
-.Resume {
-    background-color: #9de2e7;
-    padding: 5%;
-    font-size: 20px;
-}
-
-.Projects {
+.section-content {
     background-color: #9de2e7;
     padding: 5%;
     font-size: 20px;
 }
 
 
-@media (max-width: 960px) {
+
+@media (min-width: 720px) {
    h1{
     text-align: right;
     float: none;
@@ -83,6 +69,7 @@ header {
    header {
     background-color: rgb(2, 105, 104);
     height: 220px;
+    flex-direction: row;
 }
 
   .pf {
