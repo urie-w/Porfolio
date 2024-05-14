@@ -3,7 +3,6 @@ h1 {
     font-size: 50px;
     color: black;
     background-color: #9de2e7;
-    padding-top: 2px;
 }
 
 
@@ -21,7 +20,14 @@ h1 {
     border-radius: 100px;
     height: 100px;
     margin-left: 30px;
-    margin-top:-15px ;
+    margin-top:-15px;
+}
+
+/* the big image */
+.main-img {
+    width: 800px;
+    height: 500px;
+    border-radius: 50px;
 }
 
 ul {
@@ -31,6 +37,7 @@ ul {
     height: 100px;
 }
 
+/* Image of tech pattern under nav bar */
 #tech-img img {
     width: 1200px;
     height: 150px;
@@ -44,6 +51,18 @@ border-right: 5px solid;
 margin-right: 20px;
 }
 
+.imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs img {
+    height: 300px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
 
 li {
 display: inline;
@@ -53,10 +72,16 @@ float: right;
 font-size: 30px;
 }
 
+.links {
+    display: flex;
+    justify-content:space-around;;
+}
+
 
 .content {
     background-color: #9de2e7;
-    padding: 5px;
+    padding: 20px;
+    margin-bottom: 0;
     font-size: 20px;
 }
 
@@ -73,6 +98,7 @@ font-size: 30px;
 
 
    header {
+
     background-color: rgb(2, 105, 104);
     height: 220px;
     flex-direction: row;
