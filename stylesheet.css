@@ -5,6 +5,10 @@ h1 {
     background-color: #9de2e7;
 }
 
+html {
+    background-color: #9de2e7;
+
+}
 
 .pf {
     width: 150px;
@@ -74,12 +78,13 @@ font-size: 30px;
 
 .links {
     display: flex;
-    justify-content:space-around;;
+    justify-content:space-between;
+    margin-left: 400px;
+
 }
 
 
 .content {
-    background-color: #9de2e7;
     padding: 20px;
     margin-bottom: 0;
     font-size: 20px;
