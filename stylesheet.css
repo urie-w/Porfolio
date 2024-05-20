@@ -1,187 +1,43 @@
+{
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+.pf img{
+    width: 300px;
+    height: 440px;
+    border-radius: 80px;
+    border: 10px aqua solid;
+}
+
+img {
+    border-radius: 80px;
+    border: 10px aqua solid;
+}
+
+#nav-bar {
+    width: 100%;
+    height: 40%;
+}
+
 h1 {
-    display: inline;
-    font-size: 50px;
-    color: black;
-    background-color: #9de2e7;
-}
-
-html {
-    background-color: #9de2e7;
-
-}
-
-.pf {
-    width: 150px;
-    height: 150px;
-    display: flex;
-    margin-right: auto;
+    font-size: 40px;
+    background-color: aqua;
+    width: 21%;
     padding: 5px;
-    float:left;
-    margin-top: 15px;;
 }
 
-.pf img {
-    border-radius: 100px;
-    height: 100px;
-    margin-left: 30px;
-    margin-top:-15px;
-}
-
-/* the big image */
-.main-img {
-    width: 800px;
-    height: 500px;
-    border-radius: 50px;
-}
-
-ul {
-    background-color: black;
-    padding-top: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100px;
-}
-
-/* Image of tech pattern under nav bar */
-#tech-img img {
-    width: 1200px;
-    height: 150px;
-    margin-top: -70px;
-}
-
-h2 {
-float: left;
-padding: 40px;
-border-right: 5px solid;
-margin-right: 20px;;
-}
-
-.imgs {
-    display: flex;
-    justify-content: space-around;
-}
-
-.imgs img {
-    height: 300px;
-    width: 400px;
-    padding: 30px;
-    border-radius: 50px;
-}
-
-
-.nav-bar li {
-display: inline;
-padding: 20px;
-list-style: none;
-float: right;
-font-size: 30px;
-}
-
-.links {
-    display: flex;
-    justify-content:space-around;
-    margin-left: 200px;
-    margin-right: 100px;
-
-}
-
-.contact {
-list-style: none;
-margin-top: 50px;
-}
-
-.content {
-    font-size: 20px;
-}
-
-
-/* Resposive code for phone */
-
-
-@media (max-width: 1020px) {
-
-    h1 {
-        font-size: 50px;
-        color: black;
-        background-color: #9de2e7;
-        display: inline-block;
-        margin-top: 300px;
-    }
-    
-    
-    .pf {
-      display: flex;
-
-    }
-    
-    .pf img {
-        border-radius: 200px;
-        height: 400px;
-        width: 400px;
-        margin-top: 10px;
-    }
-    
-    /* the big image */
-    .main-img {
-        width: 80px;
-        height: 50px;
-        border-radius: 50px;
-    }
-    
-    ul {
-        background-color: black;
-        padding-top: 10px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        height: 900px;
-    }
-    
-    /* Image of tech pattern under nav bar */
-    #tech-img img {
-        width: 1200px;
-        height: 150px;
-        margin-top: -70px;
-    }
-    
-    h2 {
-    float: left;
-    padding: 40px;
-    border-right: 5px solid;
-    margin-right: 20px;;
-    }
-    
-    .imgs {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .imgs img {
-        height: 300px;
-        width: 400px;
-        padding: 30px;
-        border-radius: 50px;
-    }
-    
-    
-    .nav-bar li {
-    padding: 20px;
-    list-style: none;
-    position:static;
+li {
+    text-decoration: none;
+    list-style-type: none;
     font-size: 30px;
-    }
-    
-    .links {
-        display: flex;
-        justify-content:space-around;
-        margin-left: 200px;
-        margin-right: 100px;
-    
-    }
-    
-    .contact {
-    list-style: none;
-    margin-top: 50px;
-    }
-    
-    .content {
-        font-size: 20px;
-    }
+    background-color: black;
+    color: aqua;
+    display: inline;
+    padding: 30px;
+    border-radius: 80px;
 }
